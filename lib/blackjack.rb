@@ -37,7 +37,12 @@ end
 
 def hit? (number)
   # code hit? here
-  
+  prompt_user
+  move = get_user_input
+  if move == "s"
+  elsif move == "h"
+    deal_card
+  end
 end
 
 def invalid_command
