@@ -40,8 +40,10 @@ def hit? (number)
   prompt_user
   move = get_user_input
   if move == "s"
+    return number
   elsif move == "h"
-    deal_card
+    new = deal_card
+    return number + new
   end
 end
 
