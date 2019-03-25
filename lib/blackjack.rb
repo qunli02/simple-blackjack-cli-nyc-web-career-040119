@@ -44,6 +44,8 @@ def hit? (number)
   elsif move == "h"
     new = deal_card
     return number + new
+  else
+    invalid_command
   end
 end
 
