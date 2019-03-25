@@ -10,8 +10,7 @@ end
 
 def display_card_total(total)
   # code #display_card_total here
-  puts "Type 'h' to hit or 's' to stay"
-  print total
+  puts 
 end
 
 def prompt_user
